@@ -23,12 +23,13 @@ export function Hero() {
             transition={{ duration: 0.5 }}
           >
             <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl font-display">
-              Frontend Developer
-              <span className="block text-primary mt-2">Creating Digital Magic</span>
+              Software Development Engineer
+              <span className="block text-primary mt-2">Innovating Efficient Solutions</span>
             </h1>
             <p className="mt-6 text-lg leading-8 text-muted-foreground max-w-2xl mx-auto lg:mx-0">
-              I build pixel-perfect, accessible, and performant web experiences. 
-              Specializing in React, TypeScript, and modern UI/UX design.
+              I am a Software Development Engineer with 3 years of experience in building applications 
+              that enhance efficiency in employee benefit marketplaces. Proficient in MERN stack 
+              and backend API integration with a focus on scalable solutions.
             </p>
             <div className="mt-10 flex flex-wrap items-center justify-center lg:justify-start gap-4">
               <Button size="lg" onClick={scrollToContact} className="gap-2 text-base h-12 px-8">
@@ -38,10 +39,10 @@ export function Hero() {
                 <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                   <Github className="h-6 w-6" />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                <a href="https://linkedin.com/in/mohammed-zikrulla" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                   <Linkedin className="h-6 w-6" />
                 </a>
-                <a href="mailto:hello@example.com" className="text-muted-foreground hover:text-primary transition-colors">
+                <a href="mailto:zikrulla.zik@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
                   <Mail className="h-6 w-6" />
                 </a>
               </div>

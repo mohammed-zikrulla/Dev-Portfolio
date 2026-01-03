@@ -20,7 +20,7 @@ export function Navbar() {
           <div className="p-1.5 bg-primary rounded-lg text-primary-foreground">
             <Code2 className="h-5 w-5" />
           </div>
-          <span className="font-display">DevPortfolio</span>
+          <span className="font-display">Zikrulla</span>
         </div>
 
         <div className="flex items-center gap-6">

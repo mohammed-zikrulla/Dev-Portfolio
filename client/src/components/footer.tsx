@@ -9,22 +9,19 @@ export function Footer() {
             <div className="p-1 bg-primary rounded-lg text-primary-foreground">
               <Code2 className="h-4 w-4" />
             </div>
-            <span className="font-display font-bold text-lg">DevPortfolio</span>
+            <span className="font-display font-bold text-lg">Zikrulla</span>
           </div>
           
           <div className="text-sm text-muted-foreground text-center md:text-right">
-            <p>&copy; {new Date().getFullYear()} Frontend Dev. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Mohammed Zikrulla T Z. All rights reserved.</p>
           </div>
 
           <div className="flex gap-4">
             <a href="https://github.com" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors p-2 hover:bg-muted rounded-full">
               <Github className="h-5 w-5" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors p-2 hover:bg-muted rounded-full">
+            <a href="https://linkedin.com/in/mohammed-zikrulla" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors p-2 hover:bg-muted rounded-full">
               <Linkedin className="h-5 w-5" />
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors p-2 hover:bg-muted rounded-full">
-              <Twitter className="h-5 w-5" />
             </a>
           </div>
         </div>

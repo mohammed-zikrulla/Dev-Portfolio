@@ -50,7 +50,7 @@ export function ContactForm() {
               </div>
               <div>
                 <p className="font-medium text-foreground">Email</p>
-                <a href="mailto:hello@example.com" className="text-muted-foreground hover:text-primary">hello@example.com</a>
+                <a href="mailto:zikrulla.zik@gmail.com" className="text-muted-foreground hover:text-primary">zikrulla.zik@gmail.com</a>
               </div>
             </div>
             
@@ -60,7 +60,7 @@ export function ContactForm() {
               </div>
               <div>
                 <p className="font-medium text-foreground">Location</p>
-                <p className="text-muted-foreground">San Francisco, CA</p>
+                <p className="text-muted-foreground">Bangalore, Karnataka</p>
               </div>
             </div>
 
@@ -70,7 +70,7 @@ export function ContactForm() {
               </div>
               <div>
                 <p className="font-medium text-foreground">Phone</p>
-                <p className="text-muted-foreground">+1 (555) 000-0000</p>
+                <p className="text-muted-foreground">+91 9480262676</p>
               </div>
             </div>
           </div>

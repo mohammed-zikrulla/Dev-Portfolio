@@ -15,11 +15,13 @@ export function CareerTimeline() {
       dot: <Briefcase className="w-4 h-4" />,
       children: (
         <div className="mb-8">
-          <h3 className="text-lg font-bold text-foreground">Senior Frontend Engineer</h3>
-          <p className="text-sm text-primary font-medium">TechCorp Inc. | 2022 - Present</p>
+          <h3 className="text-lg font-bold text-foreground">Software Development Engineer-1</h3>
+          <p className="text-sm text-primary font-medium">Repute Networks | 06/2023 – 11/2025</p>
           <p className="mt-2 text-muted-foreground">
-            Leading the frontend migration to Next.js, improving core web vitals by 40%. 
-            Mentoring junior developers and establishing design system guidelines.
+            Optimised collaboration for an employee benefit marketplace (insurance, tax filing, credit services).
+            Teamed up to construct a fully automated onboarding and background check application.
+            Engineered a responsive ReactJS front-end with seamless iframe compatibility for HRMS systems.
+            Spearheaded backend data integration and directed data flow using Redux.
           </p>
         </div>
       ),
@@ -28,11 +30,12 @@ export function CareerTimeline() {
       color: 'blue',
       children: (
         <div className="mb-8">
-          <h3 className="text-lg font-bold text-foreground">Frontend Developer</h3>
-          <p className="text-sm text-primary font-medium">Creative Agency | 2020 - 2022</p>
+          <h3 className="text-lg font-bold text-foreground">Associate Software Engineer Intern</h3>
+          <p className="text-sm text-primary font-medium">Refactor Academy | 10/2022 – 05/2023</p>
           <p className="mt-2 text-muted-foreground">
-            Built responsive websites for high-profile clients using React and GSAP. 
-            Collaborated closely with designers to implement pixel-perfect UIs.
+            Developed a responsive AI-driven interview application.
+            Crafted accessible code using modern JavaScript libraries.
+            Contributed to testing and debugging while delivering reusable ReactJS components and integrating backend APIs.
           </p>
         </div>
       ),
@@ -42,11 +45,10 @@ export function CareerTimeline() {
       dot: <GraduationCap className="w-4 h-4" />,
       children: (
         <div className="mb-8">
-          <h3 className="text-lg font-bold text-foreground">BS Computer Science</h3>
-          <p className="text-sm text-primary font-medium">University of Tech | 2016 - 2020</p>
+          <h3 className="text-lg font-bold text-foreground">BE - Electrical and Electronics Engineering</h3>
+          <p className="text-sm text-primary font-medium">JNN College of Engineering | 09/2016 – 05/2022</p>
           <p className="mt-2 text-muted-foreground">
-            Focused on Human-Computer Interaction and Web Technologies. 
-            Graduated with Honors.
+            Shivamogga, India.
           </p>
         </div>
       ),
