@@ -67,15 +67,22 @@ export function CareerTimeline() {
       <div className="max-w-2xl mx-auto">
         <ConfigProvider
           theme={{
-            algorithm: isDark ? antdTheme.darkAlgorithm : antdTheme.defaultAlgorithm,
+            algorithm: isDark
+              ? antdTheme.darkAlgorithm
+              : antdTheme.defaultAlgorithm,
             token: {
-              fontFamily: 'var(--font-sans)',
-              colorText: 'hsl(var(--foreground))',
-              colorBgContainer: 'transparent',
-            }
+              fontFamily: "var(--font-sans)",
+              colorText: "hsl(var(--foreground))",
+              colorBgContainer: "transparent",
+            },
           }}
         >
-          <Timeline 
+          <Timeline
+            styles={{
+              itemRail: {
+                border: "0.5px solid #3d4660",
+              },
+            }}
             mode="left"
             items={items}
           />
