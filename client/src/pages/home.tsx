@@ -2,7 +2,6 @@ import { Navbar } from "@/components/navbar";
 import { Hero } from "@/components/hero";
 import { Skills } from "@/components/skills";
 import { CareerTimeline } from "@/components/career-timeline";
-import { ContactForm } from "@/components/contact-form";
 import { Footer } from "@/components/footer";
 
 export default function Home() {
@@ -13,7 +12,6 @@ export default function Home() {
         <Hero />
         <Skills />
         <CareerTimeline />
-        <ContactForm />
       </main>
       <Footer />
     </div>
