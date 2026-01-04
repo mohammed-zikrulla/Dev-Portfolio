@@ -87,9 +87,9 @@ export function ContactForm() {
           </p>
 
           <div className="space-y-6">
-            <InfoItem icon={<Mail className="h-5 w-5" />} label="Email" value="hello@example.com" />
-            <InfoItem icon={<MapPin className="h-5 w-5" />} label="Location" value="San Francisco, CA" />
-            <InfoItem icon={<Phone className="h-5 w-5" />} label="Phone" value="+1 (555) 000-0000" />
+            <InfoItem icon={<Mail className="h-5 w-5" />} label="Email" value="zikrulla.zik@gmail.com" />
+            <InfoItem icon={<MapPin className="h-5 w-5" />} label="Location" value="Bangalore, India" />
+            <InfoItem icon={<Phone className="h-5 w-5" />} label="Phone" value="+91 9480262676" />
           </div>
         </div>
 
